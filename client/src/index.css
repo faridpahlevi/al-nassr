@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@layer components {
+  .menu-items {
+    @apply transition-transform duration-500 after:block after:w-full after:border-b after:border-white after:pb-1 after:-translate-x-full after:transition-transform after:duration-500 group-hover:after:translate-x-0;
+  }
+}
