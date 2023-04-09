@@ -2,7 +2,7 @@
   "name": "al-nassr",
   "version": "1.0.0",
   "description": "",
-  "main": "client/public/src/index.js",
+  "main": "client/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
